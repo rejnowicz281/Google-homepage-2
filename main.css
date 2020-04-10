@@ -93,3 +93,22 @@ main{
   border: 1px solid hsl(0, 0%, 80%);
   cursor: pointer;
 }
+footer{
+  height: 12.7%;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 40%)
+}
+#footer-top, #footer-bottom{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50%;
+  border-top: 1px solid hsl(0, 0%, 87%);
+  padding-left: 25px;
+}
+#footer-bottom{
+  justify-content: space-between;
+}
+footer a{
+  padding-right: 25px;
+}
