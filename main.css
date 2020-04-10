@@ -1,0 +1,35 @@
+body{
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+header{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10%;
+  padding-right: 25px;
+  color: hsl(0, 0%, 20%);
+  font-size: 0.9em;
+}
+header a{
+  margin-right: 15px;
+}
+header a:hover{
+  text-decoration: underline;
+}
+#sign-in-button{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  font-weight: 800;
+  width: 67px;
+  height: 29px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 2px;
+  margin-right:0;
+  text-decoration: none;
+}
